@@ -1,4 +1,4 @@
-def read_and_process_data():
+"""def read_and_process_data():
     line = ser.readline().decode('utf-8').strip()
     values = line.split(', ')
 
@@ -24,4 +24,4 @@ def on_close(event):
         for d1, d2 in zip(data1, data2):
             writer.writerow([d1, d2])
             
-def read_mode():		
+def read_mode():	"""	
