@@ -23,3 +23,5 @@ def on_close(event):
         writer.writerow(['Data1', 'Data2'])
         for d1, d2 in zip(data1, data2):
             writer.writerow([d1, d2])
+            
+def read_mode():		
